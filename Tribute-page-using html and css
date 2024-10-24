@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute page</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main-container{
+            display:  block;
+            justify-content: center;
+            color: white;
+            background-color:black;
+            
+
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            font-family: 'Times New Roman', Times, serif
+        }
+        .messi-image{
+            
+            margin-left: 250px;
+            justify-content: center;
+
+        }
+        .small-caption{
+            margin-left: 480px;
+
+        }
+        .about-the-legend{
+            display: block;
+            width: 800px;
+            background-color: rgb(44, 41, 41);
+            text-align: center;
+            margin-left: 250px;
+
+
+
+        }
+        .second-heading{
+            color:rgb(36, 128, 159);
+        }
+        .third-heading{
+            color:rgb(36, 128, 159);
+
+        }
+        .fourth-heading{
+            color:rgb(36, 128, 159);
+
+        }
+        .barcelona{
+            color:teal;
+        }
+        .barca{
+            color:rgb(36, 128, 159);
+        }
+        .paragraphs{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1 class="header1">
+                Lionel.  Andrés.  Messi.
+            </h1>
+        </div>
+        <div class="image">
+            <img class="messi-image" src="images/image copy 2.png" alt="">
+        </div>
+        <div class="caption">
+            <small class="small-caption">
+                The greatest player ever happened in our planet.
+
+            </small>
+        </div>
+        <div class="about-the-legend">
+            <h2 class="second-heading">
+                About The True Legend Of Football
+            </h2>
+            <div class="paragraphs">
+                <p class="paragraph">
+                    ☛ Messi was born on June 24, 1987, in Rosario, Argentina.<br><br>
+
+                    ☛ He grew up in a close-knit family with his father, Jorge Messi, who worked as a factory steel worker, and his mother, Celia, who was a cleaner. He has two older brothers and a sister. <br><br>
+        
+                    ☛ Messi joined FC Barcelona's youth academy, La Masia, at the age of 13. He made his first-team debut in 2004 and became the club's all-time top scorer.<br><br>
+        
+                    ☛ Messi has represented Argentina in several international tournaments, including the FIFA World Cup and Copa América. He led Argentina to victory in the 2021 Copa América and the 2022 FIFA World Cup. <br><br>
+        
+                    ☛ Known for his dribbling ability, quick acceleration, and precise finishing. His vision and playmaking skills allow him to create opportunities for both himself and his teammates. <br><br>
+
+
+                </p>
+
+            </div>
+            <div class="another-div">
+                <h2 class=" third-heading">
+                    Individual Awards 
+                </h2>
+                <p class="list">
+                ☛ Messi has won  Ballon d'Or  award eight times (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023), the most by any player in history
+    
+                </p>
+                <p class="list">
+    
+                     ☛ He has received The Best FIFA Men's Player award three times (2019, 2022, 2023)
+    
+                </p>
+                <p class="list">
+                    ☛ Messi has claimed European Golden Shoe six times, recognizing him as the top scorer in European leagues
+    
+                </p>
+    
+    
+            </div>
+            <div class="fourth-div">
+                <h2 class="fourth-heading">
+                    Team Achievements
+                </h2>
+                
+            </div>
+            <div class="fifth-div">
+                <h3 class="barcelona">
+                    FC Barcelona
+                </h3>
+              
+    
+            </div>
+    
+    
+            <div class="sixth-div">
+            <p class="list1">
+                ☛ Messi won ten La Liga championships during his time at Barcelona
+                <br><br>
+    
+        
+                ☛ He was part of four Champions League-winning teams (2006, 2009, 2011, 2015)
+                <br><br>
+    
+            
+           
+    
+                ☛  Messi secured seven Copa del Rey trophies.
+                <br><br>
+    
+            
+           
+                ☛ FIFA Club World Cup Titles: He won this title three times (2009, 2011, 2015)
+                <br><br>
+    
+    
+            </p>
+            </div>
+    
+    
+            <div class="fifth-div">
+                <h3 class="barcelona">
+                    Paris Saint-Germain and Inter Miami
+                </h3>
+              
+    
+            </div>
+    
+    
+            <div class="sixth-div">
+            <p class="list1">
+    
+                ☛ At PSG, he won two Ligue 1 titles and a Trophée des Champions.
+                <br><br>
+    
+        
+                ☛ With Inter Miami, he won the Leagues Cup in 2023
+                <br><br>
+    
+    
+            </p>
+            </div>
+    
+            <div class="fifth-div">
+                <h3 class="barcelona">
+                    Argentina National Team
+                    
+                </h3>
+              
+    
+            </div>
+    
+    
+            <div class="sixth-div">
+            <p class="list1">
+    
+                ☛ Messi led Argentina to victory in the 2022 FIFA World Cup, earning both the Golden Ball (best player) and Silver Boot (second top scorer) awards
+                <br><br>
+    
+        
+                ☛ He also won the Copa América in 2021, and was part of the Olympic gold medal-winning team in 2008
+                <br><br>
+    
+    
+            </p>
+            </div>
+    
+            <div class="fifth-div">
+                <h2 class="barca">
+                    Records
+                 
+                    
+                </h2>
+              
+    
+            </div>
+    
+    
+            <div class="sixth-div">
+            <p class="list1">
+    
+                ☛ All-Time Top Scorer for Barcelona: Messi scored a record 672 goals for the club.
+                <br><br>
+    
+        
+                ☛ La Liga All-Time Top Scorer: He holds the record with 474 goals, along with a record number of assists (192).
+                <br><br>
+    
+                ☛ Most Goals in a Calendar Year: In 2012, he set a Guinness World Record with 91 goals.
+                <br><br>
+    
+                ☛ Most Goals in UEFA Champions League History for One Club: He scored 120 goals for Barcelona in this competition.
+                <br><br>
+    
+    
+            </p>
+            </div>
+            
+    
+            
+           
+    
+            
+           
+    
+        
+
+
+
+        </div>
+
+       
+
+    </div>
+
+    
+</body>
+</html>
