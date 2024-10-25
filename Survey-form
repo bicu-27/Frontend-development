@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+            background-color: black;
+         
+
+        }
+        h1{
+            display:flex ;
+            justify-content: center;
+        }
+        .second-main-container{
+          
+            
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+        .form-structure{
+            margin-top: 40px;
+           
+        }
+        #label-name{
+            display: block;
+            margin-right: 300px;
+            margin-bottom: 10px;
+          
+        }
+        #name{
+            width: 350px;
+            height: 25px;
+           
+        }
+        #label-email{
+            display: block;
+        }
+        #email{
+            width: 350px;
+            height: 25px;
+        }
+        #label-age{
+            display: block;
+            text-align: ;
+           
+          
+        }
+        #age{
+            width: 350px;
+            height: 25px;
+        }
+        #label-role{
+            display: block;
+        }
+        #role{
+            width: 350px;
+            height: 30px;
+
+        }
+        #would-you{
+            display: block;
+        }
+        #option-one{
+            margin-top: 20px;
+        }
+        #languages{
+            display: block;
+        }
+        #one{
+            padding-right: 30px;
+       
+        
+            margin-top: 15px;
+        }
+        #any-comment{
+            margin-right: 110px;
+            
+
+        }
+        #comment{
+            width: 300px;
+            margin-top: 10px;
+        }
+        button{
+            margin-top: 30px;
+            width: 200px;
+            height: 40px;
+            background-color: rgb(163, 153, 153);
+            border: none;
+            border-radius: 70px;
+            color: white;
+
+        }
+        
+       
+
+
+       
+       
+       
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+
+    <h1>GeeksforGeeks Survey Form</h1>
+    <div class="second-main-container">
+  
+    <div>
+        <form id="form">
+            <div class="form-structure">
+                <label  for="name" id="label-name">
+                    Name
+                </label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+            </div>
+            <div class="form-structure">
+                <label  for="name" id="label-name">
+                    Email
+                </label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+            </div>
+
+           
+            <div class="form-structure">
+                <label for="age" id="label-name">
+                    Age
+                </label>
+                <input type="number" placeholder="Enter your age " id="name">
+            </div>
+            <div class="form-structure">
+                <label for="role" id="label-role">
+                    Which option describe you best ?
+                </label>
+                <select name="role" id="role">
+                    <option value="student">
+                        Student
+                    </option>
+                    <option value="intern">
+                        Intern
+                    </option>
+                    <option value="professional">professional</option>
+                    <option value="other">Other</option>
+                </select>
+                
+
+            </div>
+            <div class="form-structure">
+                <label for="#" id="would-you" >
+                    Would you reccomend GeeksforGeeks to a friend?
+                </label>
+                <div>
+                <label for="option-one">
+                    <input type="radio" id="option-one" name="option">Yes </inputl>
+                </label>
+                </div>
+                <div>
+                <label for="option-two">
+                    <input type="radio" id="option-one" name="option">No </inputl>
+                </label>
+                </div>
+                <div>
+                <label for="option-three">
+                    <input type="radio" id="option-one" name="option">Maybe</inputl>
+                </label>
+                </div>
+                <div class="form-structure">
+                    <div>
+                        <label id="languges">
+                            Language and Frameworks Known
+                            <small>
+                               (check all that apply)
+                            </small>
+   
+                       </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-one">
+                            <input id="one" type="checkbox" name="input">C
+                        </input>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-two">
+                            <input id="one" type="checkbox" name="input">C++
+                        </input>
+                        </label>
+                    </div>
+                    <div>
+                        <label id="one" for="input-three">
+                            <input id="one" type="checkbox" name="input">Java
+                        </input>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-four">
+                            <input id="one" type="checkbox" name="input">Python
+                        </input>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-five">
+                            <input id="one"  type="checkbox" name="input">Javascript
+                        </input>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-sixth">
+                            <input id="one" type="checkbox" name="input">React
+                        </input>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-seven">
+                            <input id="one" type="checkbox" name="input">Angular
+                        </input>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-eight">
+                            <input id="one" type="checkbox" name="input">Spring
+                        </input>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label id="one" for="input-nine">
+                            <input id="one" type="checkbox" name="input">Django
+                        </input>
+                        </label>
+
+                    </div>
+                   
+
+
+                </div>
+                <div class="form-structure">
+                    <div>
+                        <label id="any-comment" for="comment">Any comment or suggestions
+
+                        </label>
+
+                    </div>
+                    <div>
+                        <textarea name="comment" id="comment" placeholder="Enter your comment">
+
+                        </textarea>
+
+                    </div>
+                   
+                   
+
+                </div>
+                <button class="submit">
+                    Submit
+                </button>
+                </div>
+
+              
+                
+
+
+
+            </div>
+
+        </form>
+        
+       
+
+    </div>
+</div>
+
+    
+</body>
+</html>
