@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax webpage</title>
+    <style>
+        body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.body{
+    width: 100%;
+    background-image: url(image/copy/3.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    
+}
+.text{
+    color: rgb(194, 154, 154);
+    font-family: cursive;
+}
+.text-one{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+.projects{
+    margin-top: 40px;
+    color: rgb(200, 196, 196);
+    font-family: cursive;
+   
+   
+
+    text-align: center;
+}
+    </style>
+   
+   
+</head>
+<body class="body" style="
+background-image: url(image\ copy\ 3.png);
+
+"> 
+<div class="text-one">
+    <h1 class="text">
+        Cinderelaa
+        
+    </h1>
+
+</div>
+<div class="Different-projects">
+    <p class="projects">
+        Once upon a time, in a faraway kingdom, there lived a kind and gentle girl named Cinderella. After her mother passed away, her father remarried a proud and haughty woman who had two equally vain daughters. Cinderella’s new stepmother and stepsisters treated her cruelly, forcing her to do all the household chores while they enjoyed a life of luxury. They often mocked her, calling her "Cinderella" because she was always covered in ashes from the 
+        fire place. <br><br>
+        One day, the kingdom buzzed with excitement as the prince announced a grand ball, inviting all the young maidens to attend. Cinderella’s stepsisters were thrilled and spent days preparing their gowns, while Cinderella was left behind to clean and cook. She longed to go to the ball but knew her stepmother would never allow it. <br> <br>
+        As she sat by the fireplace in tears on the night of the ball, her Fairy Godmother appeared in a burst of light. "Why are you crying, my dear?" she asked. Cinderella explained her wish to attend the ball but lamented that she had nothing to wear. The Fairy Godmother smiled and waved her wand, transforming Cinderella's rags into a beautiful gown adorned with sparkling jewels. She also turned a pumpkin into a magnificent carriage, mice into horses, and lizards into footmen. <br> <br>
+        "Remember," said the Fairy Godmother, "you must return before midnight when the magic wears off." Cinderella thanked her and set off for the palace, feeling like a true princess. <br><br>
+        At the ball, all eyes were on Cinderella as she entered. The prince was captivated by her beauty and asked her to dance. They twirled around the ballroom, lost in each other’s eyes. However, as the clock struck midnight, Cinderella remembered her Fairy Godmother's warning. She fled from the palace, leaving behind one of her glass slippers in her haste. <br><br>
+        The next day, the prince was determined to find the owner of the glass slipper. He sent his herald throughout the kingdom to try it on every maiden. When they arrived at Cinderella's home, her stepsisters tried desperately to fit into the slipper but failed. <br><br>
+        Cinderella then asked if she could try on the slipper. The moment she slipped it on, it fit perfectly! The prince recognized her as the mysterious girl from the ball and was overjoyed. Despite her stepsisters' jealousy and their previous mistreatment of her, Cinderella forgave them. <br><br>
+        Cinderella and the prince married soon after and lived happily ever after, proving that kindness and grace can triumph over adversity.
+        
+        
+    </p>
+
+</div>
+
+
+    
+
+</body>
+
+</html>
