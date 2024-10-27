@@ -1,0 +1,58 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise -two</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            background-color: rgb(21, 103, 76);
+            color:white
+           
+           
+
+        }
+        .item {
+            cursor: pointer;
+            transition: background-color 0.3s;
+            padding: 14px 20px; 
+            
+
+           
+        }
+        .item:hover{
+            background-color: rgb(45, 5, 5);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            Curriculum
+        </div>
+        <div class="item">
+            Forum
+        </div>
+        <div class="item">
+            News
+        </div>
+        <div class="item">
+            Sign in
+        </div>
+
+    </div>
+    
+  
+
+
+    
+</body>
+</html>
