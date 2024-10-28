@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-page</title>
+    <style>
+        body{
+            margin: 0;
+        
+        }
+        .nav-bar{
+            padding-top: 20px;
+            font-size: larger;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(23, 132, 103);
+            height: 50px;
+        }
+        .landing-page{
+            padding-left: 10px;
+        }
+        .sign-up{
+            padding-right: 10px;
+        }
+        .home:hover{
+            background-color: rgb(12, 70, 12);
+            width: 60px;
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+          
+        }
+        .sign-up:hover{
+            background-color: rgb(12, 70, 12);
+            width: 90px;
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+          
+        }
+        .about:hover{
+            background-color: rgb(12, 70, 12);
+            width: 60px;
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+          
+        }
+        .second-section{
+            display: flex;
+            color: rgb(44, 111, 44);
+            justify-content: space-evenly;
+        }
+        .html-image{
+            width: 400px;
+        }
+        .first-heading{
+            margin-top: 160px;
+        }
+        button{
+            color: black;
+            width: 150px;
+            height: 40px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+        }
+        .second-heading{
+            margin-top: 70px;
+            
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .html{
+            color: black;
+        }
+        p{
+            width: 250px;
+        }
+        .first-paragraph{
+            background-color: rgb(247, 249, 250);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+           
+  
+}
+        
+         
+        .second-paragraph{
+            background-color: rgb(247, 249, 250);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+           
+        
+        }
+        .third-paragraph{
+            background-color: rgb(247, 249, 250);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+           
+          
+        }
+        .section-four{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;            
+        }
+        .third-heading{
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            padding-left: 90px;
+        }
+        p{
+            padding-left: 20px;
+        }
+        .main-footer{
+            margin-top: 40px;
+            padding-left: 20px;
+         
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+        }
+        .button-one{
+            margin-top: 30px;
+            background-color: lightgray;
+    
+            
+        }
+        .label-name{
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .label-email{
+            font-weight: bold;
+
+        }
+        .label-password{
+            font-weight: bold;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;   
+            
+        }
+        .name{
+            display: flex;
+            flex-direction: column;
+            margin-top: px;
+        }
+        
+        
+        input{
+            width: 400px;
+            margin-top: 10px;
+            padding-left: 20px;
+            height: 40px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            border: none;
+            margin-left: 400px;
+
+        }
+        label{
+            margin-left: 400px;
+            padding-left: 20px;
+         
+
+        }
+        .second-button{
+            margin-top: 20px;
+            background-color: lightgrey;
+            border-radius: 10px;
+            margin-left: 500px;
+            transition: background-color 0.8s ;
+          
+        }
+        .second-button:hover{
+            cursor: pointer;
+            background-color: rgb(67, 63, 63);
+         
+           
+            color: white;
+
+        }
+        .contact-us{
+            display: flex;
+        }
+
+
+        
+
+       
+        
+       
+
+    
+       
+        
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="landing-page">
+            Landing Page
+        </div>
+        <div class="home">
+            Home
+        </div>
+        <div class="about">
+            About
+        </div>
+        <div class="sign-up">
+            Sign Up
+        </div>
+
+    </div>
+    <div class="second-section">
+        <div class="button-heading">
+            <h1 class="first-heading">
+                GeeksforGeeks
+            </h1>
+            <button>
+                Explore More
+            </button>
+
+        </div>
+        
+        <img class="html-image" src="images/image copy 4.png" alt="">
+
+
+    </div>
+    <div>
+        <h2 class="second-heading">
+            Courses
+        </h2>
+
+    </div>
+    <div class="section-four">
+        <div class="first-paragraph">
+            <a class="html" href="#">DSA</a>
+            <p>
+                The term DSA stands for Data 
+                Structures and Algorithms. As 
+                the name itself suggests, it 
+                is a combination of two 
+                separate yet interrelated 
+                topics.
+
+            </p>
+            
+        </div>
+        <div class="second-paragraph">
+            <a class="html" href="#">HTML</a>
+            <p>
+                HTML stands for HyperText 
+                Markup Language. It is used 
+                to design web pages using 
+                the markup language.
+            </p>
+            
+        </div>
+        <div class="third-paragraph">
+            <a class="html" href="#">JavaScript</a>
+            <p>
+                JavaScript (JS) is the most 
+                popular lightweight, interpreted 
+                compiled programming language.
+               
+            </p>
+            
+        </div>
+    
+
+
+    </div>
+    <footer>
+        <div class="third-heading">
+            <h2>
+                Sign Up
+    
+            </h2>
+        </div>
+
+        <div>
+            <div class="main-footer">
+
+            </div>
+            <div class="name">
+                <div class="label-name">
+                    <label class="label-name" for="name">Your Name</label>
+
+                </div>
+                <div class="input-name">
+                    <input type="text" id="name" placeholder="Enter your name">
+
+                </div>
+                
+               
+
+            </div>
+            <div class="name">
+                <div class="label-name">
+                    <label class="label-name" for="name">Your Email</label>
+
+                </div>
+                <div class="input-name">
+                    <input type="email" id="email" placeholder="Enter your email">
+
+                </div>
+
+                <div class="name">
+                    <div class="label-name">
+                        <label class="label-name" for="name">Your Password</label>
+    
+                    </div>
+                    <div class="input-name">
+                        <input type="password" id="name" placeholder="Enter your password">
+    
+                    </div>
+                    
+                   
+    
+                </div>
+               
+                
+               
+
+            </div>
+
+            
+        </div>
+
+        <button class="second-button">
+            Sign Up
+        </button>
+       
+
+       
+               
+
+   
+    
+    
+</body>
+</html>
