@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-restaurant</title>
+    <style>
+        body {
+          
+            margin:0 ;
+            background-image: url('image copy 5.png');
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+
+}
+.home:hover{
+    cursor: pointer;
+    background-color: rgb(128, 128, 28);
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    font-size: large;
+}
+.second-container{
+    margin-top: 250px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+
+}
+.header-two{
+    margin-top: 60px;
+}
+.image-food{
+    display: flex;
+    flex: 1;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding-top: 40px;
+
+
+}
+img{ 
+    width: 300px;
+}
+button{
+    color: white;
+    background-color: rgb(68, 13, 13);
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 200px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+
+
+    
+       
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="home">
+            Home
+        </div>
+        <div class="home">
+            About
+        </div>
+        <div class="home">
+            Menu
+        </div>
+        <div class="home">
+            Contact Us
+        </div>
+
+    </div>
+
+    <div class="second-container">
+        <div class="header-one">
+            <h1>
+                Food Shop
+            </h1>
+            <div class="header-two">
+                <h2>
+                    Welcome to online food shop!
+                </h2>
+    
+            </div>
+    
+        </div>
+
+        </div>
+        <div class="image-food">
+            <div>
+                <img src="images/image copy 5.png" alt="">
+            </div>
+            <div>
+                <img src="images/image copy 10.png" alt="">
+            </div>
+            <div>
+                <img class="height" src="images/image copy 5.png" alt="">
+            </div>
+            <div>
+                <img class="height" src="images/image copy 5.png" alt="">
+            </div>
+
+            </div>
+            <div class="image-food">
+                <div>
+                    <img src="images/image copy 5.png" alt="">
+                </div>
+                <div>
+                    <img src="images/image copy 10.png" alt="">
+                </div>
+                <div>
+                    <img class="height" src="images/image copy 5.png" alt="">
+                </div>
+                <div>
+                    <img class="height" src="images/image copy 5.png" alt="">
+                </div>
+                
+                </div>
+                <button>
+                    Order now
+                </button>
+    
+
+           
+
+        
+       
+
+
+
+
+    
+</body>
+</html>
