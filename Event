@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event website</title>
+    <style>
+        .container{
+
+            display: flex;
+            flex: 1;
+            margin-top: 20px;
+           
+
+            
+        }
+        .day{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(10, 10, 57);
+            color:white;
+            padding-left: 200px;
+            text-align: center;
+            font-size: 100px;
+            padding-left: 100px;
+            padding-right: 100px;
+           
+            
+            
+          
+        }
+        .paragraph{
+            margin-top: 20px;
+            background-color: white;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 80px;
+            padding-left: 40px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            
+        }
+        a{
+            border: black 2px solid;
+            
+            
+           
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="day">
+
+            15
+            June
+        
+            
+        </div>
+        <div class="paragraph">
+            <h3>
+                Where is the event happening?
+            </h3>
+            <p>
+                With the idea of imparting programming knowledge, Mr.Sandeep Jain, an IIT Roorkee alumnus started a dream, GeeksforGeeks, Whether programming excitesyou or you feel stifled.how to ace data structure and algorithms,GeeksforGeeks is one-stop solution.
+                <br><br>
+
+                <a href="#"> View details</a>
+
+
+            </p>
+        
+    
+        </div>
+        
+
+    </div>
+    <div class="container">
+        <div class="day">
+
+            27
+            May
+            
+        </div>
+        <div class="paragraph">
+            <h3>
+                Where is the event happening?
+            </h3>
+            <p>
+                With the idea of imparting programming knowledge, Mr.Sandeep Jain, an IIT Roorkee alumnus started a dream, GeeksforGeeks, Whether programming excitesyou or you feel stifled.how to ace data structure and algorithms,GeeksforGeeks is one-stop solution.
+                <br><br>
+
+                <a href="#"> View details</a>
+
+
+                
+
+
+            </p>
+        
+    
+        </div>
+        
+
+    </div>
+    <div class="container">
+        <div class="day">
+
+            12
+            June
+            
+            
+        </div>
+        <div class="paragraph">
+            <h3>
+                Where is the event happening?
+            </h3>
+            <p>
+                With the idea of imparting programming knowledge, Mr.Sandeep Jain, an IIT Roorkee alumnus started a dream, GeeksforGeeks, Whether programming excitesyou or you feel stifled.how to ace data structure and algorithms,GeeksforGeeks is one-stop solution.
+                <br><br>
+
+                <a href="#"> View details</a>
+
+
+                
+
+
+            </p>
+        
+    
+        </div>
+        
+
+    </div>
+   
+   
+</body>
+</html>
