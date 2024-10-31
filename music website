@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music website</title>
+    <style>
+        body{
+            background-image: url(images/image\ copy\ 12.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+            display: flex;
+            color: rgb(246, 235, 235);
+            justify-content: space-evenly;
+            
+
+        }
+        .Home:hover{
+            background-color: antiquewhite;
+            color: black;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            
+        }
+        .music:hover{
+            background-color: antiquewhite;
+            color: black;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            
+        }
+        .artist:hover{
+            background-color: antiquewhite;
+            color: black;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            
+        }
+        .contact:hover{
+            background-color: antiquewhite;
+            color: black;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Home">
+            Home
+        </div>
+        <div class="music">
+            Music
+        </div>
+        <div class="artist">
+            Artist
+    
+        </div>
+        <div class="about">
+            About
+    
+        </div>
+        <div class="contact">
+            Contact
+        </div>
+    
+    
+
+    </div>
+    
+    
+</body>
+</html>
