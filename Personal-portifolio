@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .nav-bar{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: rgb(62, 5, 5);
+            color: white;
+            height: 60px;
+            padding-top: 40px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .lydia:hover{
+            background-color:rgb(181, 164, 146);
+            width: 200px;
+            text-align: center;
+            height: 50px;
+            transition: width 2s ease-in-out 0.15s;
+           
+        }
+        .home:hover{
+            background-color:rgb(181, 164, 146);
+            width: 60px;
+            height: 35px;
+            text-align: center;
+            transition: width 2s ease-in-out 0.15s;
+
+        }
+        .about:hover{
+            background-color: rgb(181, 164, 146);
+            width: 60px;
+            height: 35px;
+            text-align: center;
+            transition: width 2s ease-in-out 0.15s;
+
+        }
+        .projects:hover{
+            background-color:rgb(181, 164, 146);
+            width: 100px;
+            height: 35px;
+            text-align: center;
+            transition: width 0.15s ease-in-out 0.15s;
+        }
+        .achievements:hover{
+            background-color: rgb(181, 164, 146);
+            width: 140px;
+            height: 35px;
+            text-align: center;
+            transition: width 0.15s ease-in-out 0.15s;
+        }
+        .contact:hover{
+            background-color:rgb(181, 164, 146);
+            width: 100px;
+            height: 35px;
+            text-align: center;
+            transition:  ease-in-out 0.15s;
+        }
+        .heading-one{
+            margin-top: 20px;
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 200px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+            text-align: center;
+            margin-right: 100px;
+          
+            
+            
+        }
+        h1{
+            padding-left: 400px;
+           
+        }
+        .about-me{
+            margin-top: 100px;
+            font-family: 'Times New Roman', Times, serif;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 700px;
+            margin-left: 280px;
+            padding-left: 40px;
+            height: 300px;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="lydia">
+            Lydia Kebede's Portifolio
+        </div>
+        <div class="home">
+            Home
+        </div>
+        <div class="about">
+            About
+        </div>
+        <div class="projects">
+            Projects
+        </div>
+        <div class="achievements">
+            Achievements
+        </div>
+        <div class="contact">
+            Contact
+        </div>
+    
+
+    </div>
+    <div class="heading-one">
+        <h1>
+            Hi Everybody!
+        </h1>
+
+    </div>
+    <div class="about-me">
+        <h2 class="second-heading">
+            About Me!
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deleniti voluptate, quasi repellendus magnam nobis facilis neque nisi similique dolor, dolorum quidem facere quis itaque earum! Deserunt dolorum accusamus soluta?
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatem repellat esse et dolorem, repudiandae tenetur asperiores in eligendi? Assumenda inventore dolor cupiditate fugiat modi iusto rerum error magni mollitia. <br> <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta vel, quod ab dolorum exercitationem inventore molestiae error doloremque est quae rem distinctio eveniet. Nihil odio exercitationem nam qui ea.
+        </p>
+
+    </div>
+    
+    
+</body>
+</html>
