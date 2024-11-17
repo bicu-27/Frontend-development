@@ -1,0 +1,403 @@
+console.log("Hello World");
+// variables 
+let age = 30;
+console.log(age);
+age = 56;
+console.log(age);
+let score;
+score = 10;
+console.log(score);
+// Data types
+const name = 'lydia';
+const ag = 34;
+const rating = 4.5;
+const isCool = true;
+const x = null;
+const y = undefined;
+let z;
+console.log(typeof name);
+console.log(typeof ag);
+// strings
+const name1 = 'kebede';
+const a = 50;
+// concatenation
+console.log("my name is" + " " + name1+" "  + "I am" + " "+a+ " " + "years old") 
+// Template strings 
+console.log(`my name is ${name1} and I am ${a} `);
+const s = "hey buddy";
+console.log(s.length);
+console.log(s.toUpperCase);
+console.log(s.toLowerCase);
+console.log(s.split(""));
+const l = 'technology , computer, it , code';
+console.log(l.split(','));
+// Arrays 
+const num = new Array(1,4,6,8,9,6,5)
+console.log(num);
+const fruits = ['apples', 'oranges', 'bananas','pin-apples','strawberry', 10, true];
+console.log(fruits);
+// Accesing elements 
+console.log(fruits[1]);
+// Adding to the end
+fruits[7] = 'grapes';
+console.log(fruits);
+// push  
+fruits.push('mangos');
+console.log(fruits);
+// unshift
+fruits.unshift('pears');
+console.log(fruits);
+// pop
+fruits.pop();
+console.log(fruits);
+// To check if something is in array 
+console.log(Array.isArray('fruits'));
+// To find index of an array we can use 
+console.log(fruits.indexOf('pears'));
+// Object value literals
+const person = {
+    firstName: 'Lydia',
+    lastName:'kebede',
+    age: 21,
+    hobbies:['song','football','movies'],
+    address: {
+        street: 'main-street',
+        city:'addisalem',
+        state:'ethiopia'
+
+    }
+}
+console.log(person);
+// If we want to access object literals
+console.log(person.firstName);
+console.log(person.lastName,person.address);
+console.log(person.hobbies[1]);
+console.log(person.address.state);
+// from object literals we can create a variable
+const {firstName, lastName} = person;
+console.log(firstName);
+// We can add properties in objects literals.
+person.email = 'biculydia24@gmail.com';
+console.log(person);
+// Array of the objects 
+const todos =[
+    {
+        id:1,
+        text:'take out trash',
+        isCompleted:true
+
+    },
+    {
+        id:2,
+        text:'Meeting with boss',
+        isCompleted:true
+
+    },
+    {
+        id:3,
+        text:'Dentist appointement ',
+        isCompleted:false
+
+    }
+
+];
+console.log(todos);
+console.log(todos[1].text);
+//JSON
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);// this is how we send data to the server.
+// loops
+// 1. For loops
+for( let i = 0; i <= 10; i++) {
+    console.log(`for loop number${i}`);
+
+}
+//while loop
+let i = 0;
+while(i<10){
+    console.log(`while loop number:${i}`);
+    i++
+
+};
+// loop through arrays.
+for(let i = 0; i < todos.lendth; i++){
+    console.log(todos[i].text);
+
+}
+for(let todo of todos){
+    console.log(todo.text);
+
+}
+// High order array methods
+// For each 
+todos.forEach(function(todo){
+    console.log(todo.text);
+
+})
+// map
+ const todoText = todos.map(function(todo){
+    return todo.text;
+
+})
+console.log(todoText);
+
+// filter
+const todoCompleted = todos.filter(function(todo){
+    return todo.isCompleted === true;
+    
+}) .map(function(todo){
+    return todo.text;
+})
+console.log(todoCompleted);
+// Conditionals 
+const L = 70;
+if(L===10){
+    console.log('L is 10')
+} else if(L > 10) {
+    console.log('L is greater than 10')
+
+} else{
+    console.log('x is less than  10')
+}
+const Y = 10;
+if(Y===10 || L > 4){
+    console.log('L is 10')
+} else if(Y > 10  && L < 45) {
+    console.log('L is greater than 10')
+
+} else{
+    console.log('x is less than  10')
+}
+
+// === trple equal match the data ype.
+// Ternary operator
+const u = 10;
+const color = u > 10 ? 'red' : 'blue';
+// the elplanation will be if u is greter than 10 console.log red else console.log blue.
+console.log(color);
+// switch 
+switch (color){
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'blue':
+        console.log('color is  blue');
+        break;
+    default:
+        console.log('color is not blue or red');
+        break;
+
+}
+let fruit = prompt('Enter the name of the fruit!');
+switch(fruit){
+    case 'banana':
+        alert('Banana is good');
+        break;
+    case 'apple':
+       alert('How you like them apples?');
+        break;
+    default:
+        console.log('"I have never heard of that fruit');
+        break;
+}
+
+// function
+function addNums(num1 = 1 , num2 = 1){
+    return (num1 + num2);
+  
+
+}
+console.log(addNums(6,7));
+
+// Arrow function
+/*
+const  addNums = (num1 = 1 , num2 = 1) => {
+    return (num1 + num2);
+  
+
+}
+console.log(addNums(6,7));
+*/
+
+// OOP of javascript.
+// Here we use constructive function.
+function People(firstName, lastName, dob ) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
+    
+
+}
+
+// Instantiate object
+
+const people1 = new People('lydia','kebede', '22-12-2003');
+const people2 = new People('Tiobista','fekadu', '5-8-2002');
+console.log(people1);
+console.log(people2);
+console.log(people2.dob);
+/*
+console.log(people2.dob.getUTCFullYear());
+console.log(people1.getBirthYear());
+console.log(people1.getFullName());
+*/
+
+
+// prototype
+People.prototype.getBirthYear = function() {
+    return this.dob.getFullYear();
+
+}
+People.prototype.getFullName = function(){
+     return `${this.firstName} ${this.lastName}`
+}
+/*
+console.log(people2.getFullName());
+console.log(people1);
+*/
+function P(name){
+    this.name = name;
+
+}
+P.prototype.greet = function(){
+    console.log(`Hello, my name is ${this.name}`);
+
+}
+const lydia = new P('Lydia');
+lydia.greet();
+// How can we create prototype 
+const animalPrototype = {
+    speak(){
+        console.log('Animal speaks.')
+    }
+};
+const dog = Object.create(animalPrototype);
+dog.speak();
+// Object.create(proto, propertiesObject);
+ class car{
+    constructor(model, color){
+        this.color = color;
+        this.model = model;
+
+    }
+    drive(){
+        console.log(`Driving a ${this.color} ${this.model}.`)
+    }
+ }
+ const myCar = new car('red', 'Toyota');
+ myCar.drive();
+ class Book{
+    constructor(title,author ){
+
+        this.title =title;
+        this.author = author;
+        this.isCheckedOut = false;
+
+
+    }
+    checkOut(){
+        this.isCheckedOut = true;
+    }
+    returnBook(){
+        this.isCheckedOut = false;
+        
+    }
+    getInfo(){
+        return `${this.title} by ${this.author}${this.isCheckedOut? 'checked out' : 'Available'}`
+ }
+}
+class Library{
+    constructor(books){
+        this.books =  [];
+
+    }
+    addBook(){
+        this.books.push(book);
+
+    }
+}
+ // Prototypal inheritance 
+ // Define a parent object
+const animalPrototypeOne = {
+    speak() {
+        console.log(`${this.name} makes a noise.`);
+    }
+};
+
+// Create a dog object that inherits from animalPrototype
+const horse = Object.create(animalPrototypeOne);
+horse.name = 'Buddy';
+horse.bark = function() {
+    console.log(`${this.name} barks: Woof! Woof!`);
+};
+
+// Create a cat object that also inherits from animalPrototype
+const cat = Object.create(animalPrototypeOne);
+cat.name = 'Whiskers';
+cat.meow = function() {
+    console.log(`${this.name} meows: Meow!`);
+};
+
+// Using inherited method
+horse.speak(); // Output: Buddy makes a noise.
+cat.speak(); // Output: Whiskers makes a noise.
+
+// Using own methods
+horse.bark();  // Output: Buddy barks: Woof! Woof!
+cat.meow();  // Output: Whiskers meows: Meow!
+
+//  Encapsulation
+
+//  Polymorphism 
+class Shape {
+    area(){
+        return 'Area of Shape'
+    }
+}
+class Circle extends Shape{
+    area(){
+        return 'Area of Circle'
+    }
+}
+class Rectangle extends Shape {
+    area() {
+        return "Area of Rectangle";
+    }
+}
+const shapes = [new Circle(), new Rectangle()];
+shapes.forEach(shape => console.log(shape.area()));
+
+class Animal{
+    speak(){
+        console.log('Animals makes sound')
+    }
+}
+class Dog extends Animal{
+    speak(){
+        return 'bark';
+       
+    }
+}
+class Cats extends Animal{
+    speak(){
+        return 'meow';
+        
+    }
+}
+class Cow extends Animal{
+    speak(){
+        return 'Moo!';
+    }
+}
+// Creating instances of each subclass
+const myDog = new Dog();
+const myCat = new Cat();
+const myCow = new Cow();
+
+// Array of animal objects
+const animals = [myDog, myCat, myCow];
+
+// Demonstrating polymorphism
+animals.forEach(animal => {
+    console.log(animal.speak());
+});
